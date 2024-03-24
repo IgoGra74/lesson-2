@@ -14,6 +14,7 @@ export const Form = ({ onSubmit }) => {
         name="search"
         required
         autoFocus
+        autoComplete='off'
       />
     </form>
   );
